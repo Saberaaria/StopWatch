@@ -1,0 +1,54 @@
+body {
+    background-color: #1b1b1b;
+}
+
+section .container {
+    margin-top: 9%;
+}
+
+@media (max-width:910px) {
+    section .container {
+        margin-top: 50%;
+    }
+}
+
+.backgroundd {
+    background-image: url(Texture.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    padding: 50px 0px;
+}
+
+.div-contain {
+    width: 100%;
+}
+
+.heading-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-contain h1 {
+    color: white;
+    margin-top: 34px;
+}
+
+.div-child {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, purple, blue);
+    position: relative;
+}
+
+.div-child h1 {
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 1.5px;
+    right: 10px;
+    font-size: 50px;
+}
